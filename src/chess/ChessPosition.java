@@ -1,8 +1,6 @@
-package chess.chess;
+package chess;
 
-import bordgame.BoardException;
 import bordgame.Position;
-import chess.ChessException;
 
 public class ChessPosition {
     private char column;

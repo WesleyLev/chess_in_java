@@ -1,7 +1,7 @@
 package chess.pieces;
 
 import bordgame.Board;
-import chess.chess.chess.ChessPiece;
+import chess.ChessPiece;
 
 import java.awt.*;
 
