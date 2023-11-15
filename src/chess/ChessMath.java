@@ -35,12 +35,14 @@ public class ChessMath {
         return (ChessPiece)capturedPiece;
     }
 
+
     private Piece makeMove(Position source, Position target) {
         Piece p = board.removePiece(source);
         Piece capturedPiece = board.removePiece(target);
         board.placePiece(p, target);
         return capturedPiece;
     }
+
 
     private void validateSourcePosition(Position position) {
         if (!board.thereIsAPiece(position)) {
