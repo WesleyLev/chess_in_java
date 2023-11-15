@@ -6,7 +6,7 @@ import bordgame.Piece;
 import java.awt.*;
 import java.awt.Color;
 
-public class ChessPiece extends Piece {
+public abstract class ChessPiece extends Piece {
 
 
     private java.awt.Color color;
